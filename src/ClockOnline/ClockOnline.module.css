@@ -1,0 +1,26 @@
+.clock {
+    width: 100px;
+    margin: 0 auto;
+    border: 5px double red;
+    text-align: center;
+    margin-top: -680px;
+}
+
+.clock:hover {
+    background-color: #003399;
+}
+
+.clock span:nth-child(1) {
+    color: darkred;
+    font-weight: bold;
+}
+
+.clock span:nth-child(2) {
+    color: darkred;
+    font-weight: bold;
+}
+
+.clock span:nth-child(3) {
+    color: darkred;
+    font-weight: bold;
+}

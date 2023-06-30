@@ -2,6 +2,7 @@ import Desktop from "./Desktop/Desktop";
 import Section from "./Section/Section";
 import Footer from "./Footer/Footer";
 import './App.css'
+import Clock from "./ClockOnline/Clock";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Desktop />
         <Section />
         <Footer />
+       <Clock />
       </div>
   );
 }
