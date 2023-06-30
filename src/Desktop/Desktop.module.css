@@ -1,0 +1,33 @@
+
+
+.desktop_wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content:  center;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    border-bottom: 1px solid black;
+}
+
+.logo_counter {
+
+}
+
+.header_ul_list {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    list-style: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #003399;
+}
+
