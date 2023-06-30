@@ -31,5 +31,3 @@ root.render(
     </React.StrictMode>
 
 );
-// Nothing to commit :D
-// This comment may be to improve it
