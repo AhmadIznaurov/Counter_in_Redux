@@ -8,10 +8,10 @@ const Section = () => {
     const dispatch = useDispatch();
 
 
-
     const increment = () => {
         dispatch( {
-            type: 'increment'
+            type: 'increment',
+            number: 5
         })
     };
 
@@ -26,6 +26,8 @@ const Section = () => {
             type: 'reset'
         })
     };
+
+
 
     return (
         <div className={d.section}>
